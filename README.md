@@ -11,7 +11,7 @@ I implement a progressive specialization strategy using YOLOv11n (You Only Look 
 
 I will implement a multi-stage transfer learning approach:
 1. Start with the YOLOv11 pretrained model as the foundation
-2. First transfer learning phase: Train on research paper layouts to build general document understanding. Dataset --> ![TFT-ID](https://universe.roboflow.com/huyifei/tft-id)
-3. Second transfer learning phase: Fine-tune on early modern document layouts. Dataset --> ![macro-segmentation-2pwqv](https://universe.roboflow.com/layoutorganisation/macro-segmentation-2pwqv/dataset/1)
+2. First transfer learning phase: Train on research paper layouts to build general document understanding. Dataset --> [TFT-ID](https://universe.roboflow.com/huyifei/tft-id)
+3. Second transfer learning phase: Fine-tune on early modern document layouts. Dataset --> [macro-segmentation-2pwqv](https://universe.roboflow.com/layoutorganisation/macro-segmentation-2pwqv/dataset/1)
 4. Final specialization phase: Fine-tune specifically for the provided early modern Spanish documents. Dataset --> [Layout_organistion](https://universe.roboflow.com/layoutorganisation/layout_organistion/dataset/4)
 
